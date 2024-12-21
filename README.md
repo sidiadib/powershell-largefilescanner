@@ -19,11 +19,14 @@ A powerful and user-friendly PowerShell script for scanning directories and iden
 
 ## Usage
 
-1. Run the script in PowerShell
-2. Enter the source directory path to scan
-3. Select an age filter option (if desired)
-4. Specify the number of largest files to report
-5. Choose output location (optional)
+1. Run the script in PowerShell (You might have to use "-ExecutionPolicy Bypass").
+  - **.\LargeFileScanner.ps1**
+  - **pwsh -ExecutionPolicy Bypass -File ".\LargeFileScanner.ps1"**
+  - **powershell -ExecutionPolicy Bypass -File ".\LargeFileScanner.ps1"**
+3. Enter the source directory path to scan
+4. Select an age filter option (if desired)
+5. Specify the number of largest files to report
+6. Choose output location (optional)
 
 ## Output Format
 
